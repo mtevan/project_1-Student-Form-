@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  }
+  
+  .thank-you-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #66fcf1;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 24px;
+    color: #fff;
+  }
+  

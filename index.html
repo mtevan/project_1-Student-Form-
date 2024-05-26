@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="image-container">
+        <img src="trust_university.png" alt="Futuristic Image">
+      </div>
+  <form id="studentForm">
+    <h1>Student Registration</h1>
+    <label for="name">Name<span style="color:red">*</span>:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="id">ID<span style="color:red">*</span>:</label>
+    <input type="text" id="id" name="id" required>
+
+    <label for="department">Department:</label>
+    <input type="text" id="department" name="department">
+
+    <label for="session">Session:</label>
+    <input type="text" id="session" name="session">
+
+    <label for="batch">Batch:</label>
+    <input type="text" id="batch" name="batch">
+
+    <label for="semester">Semester:</label>
+    <input type="text" id="semester" name="semester">
+
+  <button type="submit">Submit</button>
+  </form>
+</div>
+<script src="form.js"></script>
+</body>
+</html>
